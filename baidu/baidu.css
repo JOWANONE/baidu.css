@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height:100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	font-family:arial;
+}
+
+.page-header{
+	padding-top: 20px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.page-header nav a{
+	font-size: 13px;
+	font-weight:700;
+	color: #333;
+	margin-left: 20px;
+}
+
+.page-header nav a:last-child{
+	display:inline-block;
+	width:60px;
+	height: 23px;
+	background-color: #38f;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 23px;
+}
+
+.page-mainer{
+	flex: 1;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.page-mainer .logo-container img{
+	width: 270px;
+	height:129px;
+	margin-bottom: 22px;
+}
+
+.form-container form{
+	display: flex;
+	justify-content: center;
+}
+
+.form-container .form-search{
+	display: inline-block;
+	width: 539px;
+	height: 34px;
+	border: 1px solid #b6b6b6;
+	border-right: 0;
+	outline: none;
+	line-height: 34px;
+	padding-left: 10px;
+}
+
+.for-container .submit-bth{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #3385ff;
+	border: 1px solid #3385ff;
+	letter-spacing: 1px;
+	outline: none;
+	cursor: pointer;
+}
+
+.form-container .submit-bth:hover{
+	opacity: 0.8;
+}
+
+.page-footer{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.page-footer .footer-info{
+	margin-top: 15px;
+	color:#999;
+}
+
+.page-footer .footer-info a{
+	color: #999;
+	margin-right: 15px;
+}
+
+.page-footer .footer-info a:last-child{
+	margin-right: 0;
+}
+
